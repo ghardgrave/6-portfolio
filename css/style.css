@@ -65,7 +65,7 @@ opacity: 1;
 #wrapper1 .text {
 visibility:hidden;
 font-family: "Gentium Basic", "Georgia", serif;
-margin: 1rem 3.6em 0 4rem;
+margin: 1rem 3.6em .5rem 4rem;
 color: white;
 transition: all 0.5s ease-in-out;
 opacity: 0;
@@ -91,12 +91,78 @@ display: inline-block;
 }
 
 
-/* responsive *//* responsive *//* responsive *//* responsive */
+/* responsive */
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-device-width: 500px) 
+{
+
+img.shadow {
+-o-box-shadow:      6px 6px 5px #555;
+-icab-box-shadow:   6px 6px 5px   #555;
+-khtml-box-shadow:  6px 6px 5px #555;
+-moz-box-shadow:    6px 6px 5px   #555;
+-webkit-box-shadow: 6px 6px 5px  #555;
+box-shadow:         6px 6px 5px  #555;
+}
+
+#wrapper2 img {
+  visibility: visible;
+  opacity: 1;
+  margin: 1;
+  padding: 0;
+}
 
 
+
+#wrapper1 .text {
+font-family: "Gentium Basic", "Georgia", serif;
+margin: 0 auto;
+color: white;
+padding: 2rem; 
+visibility: visible;
+opacity: 1;
+}
+
+#wrapper1:hover .text {
+visibility:visible;
+opacity: 1;
+}
+
+
+h1 {
+	text-align: center;
+padding-top: 3rem;
+}
+
+h2 {
+  font-size: 1.78rem;
+  padding: 2.5rem 0 0 0;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+h3 {
+color: #fff;
+margin: 0 auto;
+text-align: center;
+padding: 1rem;
+}
+
+.links > ul {
+}
+
+.links > li {
+  padding: 1rem 1rem 0 1rem;
+}
+
+}
+
+
+
+
+@media only screen and (min-device-width: 568px) {
 
 img.shadow {
 -o-box-shadow:      6px 6px 5px #555;
@@ -123,7 +189,7 @@ visibility:visible;
 font-family: "Gentium Basic", "Georgia", serif;
 margin: 0 auto;
 color: white;
-padding: 3rem; 
+padding: 2rem; 
 visibility: visible;
 opacity: 1;
 }
@@ -133,15 +199,21 @@ visibility:visible;
 opacity: 1;
 }
 
+#wrapper1 a, a:visited
+{
+  color: #d3d3d3;
+  padding: 0 0 0 -.5rem;
+
+}
 
 h1 {
-	text-align: center;
+  text-align: center;
 padding-top: 3rem;
 }
 
 h2 {
   font-size: 1.78rem;
-  padding: 2rem 0;
+  padding: 2.5rem 0 0 0;
   margin: 0 auto;
   display: block;
   text-align: center;
@@ -161,8 +233,7 @@ text-align: center;
 }
 
 .links > li {
-  padding: 1rem;
+  padding: 1rem 1rem 0 1rem;
 }
 
-}
-
+} */
