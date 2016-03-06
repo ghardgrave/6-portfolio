@@ -54,6 +54,7 @@ box-shadow:         12px 12px 20px #555;
   visibility: hidden;
     transition: all 0.5s ease-in-out;
   opacity: 0;
+  width: 250px;
 }
 
 #wrapper2:hover img {
@@ -97,6 +98,13 @@ display: inline-block;
 @media only screen and (max-device-width: 500px) 
 {
 
+.maincontainer {
+    background-image: url('http://i.imgur.com/HsR5bjg.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
 img.shadow {
 -o-box-shadow:      6px 6px 5px #555;
 -icab-box-shadow:   6px 6px 5px   #555;
@@ -106,13 +114,34 @@ img.shadow {
 box-shadow:         6px 6px 5px  #555;
 }
 
+
 #wrapper2 img {
   visibility: visible;
   opacity: 1;
-  margin: 1;
-  padding: 0;
+
 }
 
+
+.wiw {
+margin: 0 auto;
+width: 80%;
+height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.links > ul {
+margin: 0;
+padding: 1rem;
+
+}
+
+.links >  li {
+  padding: 0;
+  margin: 0 auto;
+}
 
 
 #wrapper1 .text {
@@ -122,6 +151,7 @@ color: white;
 padding: 2rem; 
 visibility: visible;
 opacity: 1;
+font-size: 1.33rem;
 }
 
 #wrapper1:hover .text {
@@ -135,23 +165,26 @@ h1 {
 padding-top: 3rem;
 }
 
-h2 {
-  font-size: 1.78rem;
-  padding: 2.5rem 0 0 0;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
+  h2 {
+    font-size: 1.78rem;
+    padding: 2.5rem 0 0 0;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
 }
 
 
-.links > ul {
-}
 
-.links > li {
-  padding: 1rem 1rem 0 1rem;
-}
 
-}
+
+
+
+
+
+
+
+
 
 /* responsive landscape */
 
@@ -171,7 +204,7 @@ box-shadow:         6px 6px 5px  #555;
 #wrapper2 img {
   visibility: visible;
   opacity: 1;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -214,8 +247,6 @@ h2 {
   text-align: center;
 }
 
-.links > li {
-  padding: 1rem 1rem 0 1rem;
-}
+
 
 } 
