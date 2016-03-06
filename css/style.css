@@ -1,0 +1,76 @@
+
+body {
+  margin: 0;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+
+}
+h1 {
+
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0 3rem;
+  padding-top: 10rem;
+  color: #fff;
+  text-shadow: 2px 2px #2F4F4F;
+  font-size: 2.33rem;
+
+}
+
+.maincontainer {
+	height: 75rem;
+    width: 100%;
+    background-image: url('http://i.imgur.com/HsR5bjg.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.links > li {
+	padding: 1rem 0 3rem 3rem;
+    display: inline-block;
+}
+
+.about {
+	font-family: "Gentium Basic", "Georgia", serif;
+margin: 0 auto;
+
+}
+
+h2 {
+padding: 0 0 0 4.5rem;
+font-size: 2.15rem;
+text-decoration: underline;
+}
+
+h3 {
+color: #fff;
+padding: 1rem 0 0 6rem;
+}
+
+.about-wrapper{
+    width:400px;
+    height:439px;
+    overflow:hidden;
+    transition:left 2s ease-in-out;
+    -webkit-transition:left 2s ease-in-out;
+}
+
+.about-wrapper img{
+    width:100%;
+}
+
+.about-wrapper a{
+    position:relative;
+    font-size:24px;
+    color:red;
+    font-weight:600;
+    left:-180px;
+    bottom:60px;
+    -webkit-transition:left 1s ease-in-out;
+}
+
+.about-wrapper:hover > a{
+    left:120px;
+}
